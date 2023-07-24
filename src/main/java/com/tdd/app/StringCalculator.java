@@ -81,7 +81,7 @@ public class StringCalculator {
     private static Optional<String> checkForNegativeNumbers(String numbersList) {
         Matcher matcher = Pattern.compile("-\\d+").matcher(numbersList);
 
-        List<String> negativeNumbers = new ArrayList();
+        List<String> negativeNumbers = new ArrayList<String>();
 
         while (matcher.find()) {
             negativeNumbers.add(matcher.group());
