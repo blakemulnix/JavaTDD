@@ -7,13 +7,7 @@ import org.junit.Test;
 
 import static com.tdd.app.FizzBuzz.fizzBuzz;
 
-/**
- * Unit test for simple App.
- */
 public class FizzBuzzTest {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
     public void shouldReturn0ForPos0() {
         assertEquals("0", fizzBuzz(0));
